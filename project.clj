@@ -7,8 +7,10 @@
                  [compojure "1.5.1"]
                  [cheshire "5.4.0"]
                  [spyscope "0.1.5"]
+                 [reagent "0.6.0-rc"]
                  [ring/ring-defaults "0.2.1"]]
-  :plugins [[lein-beanstalk "0.2.7"]
+  :plugins [[lein-figwheel "0.5.4-7"]
+            [lein-beanstalk "0.2.7"]
             [lein-ring "0.9.7"]]
   :ring {:handler twit.handler/app}
   :profiles

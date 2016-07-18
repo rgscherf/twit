@@ -28,8 +28,8 @@
   "Convenience function: URL string -> response map."
   [url]
   (-> url
-      (get-response)
-      (parse-response)))
+      get-response
+      parse-response))
 
 (defn basic-user-info
   "Github user name -> map of relevant user fields"
@@ -92,7 +92,5 @@
   "Github user name -> user + commits map"
   [user-name]
   (-> user-name
-      (basic-user-info)
-      (add-commits)))
-
-(assemble-user-map "rgscherf")
+      basic-user-info
+      add-commits))

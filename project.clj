@@ -8,7 +8,7 @@
 
                  [clj-http "2.2.0"]
                  [cljs-http "0.1.41"]
-                 
+
                  [compojure "1.5.1"]
                  [cheshire "5.4.0"]
                  [reagent "0.6.0-rc"]

@@ -15,6 +15,7 @@
                  [ring/ring-defaults "0.2.1"]]
 
   :plugins [[lein-figwheel "0.5.4-7"]
+            [lein-cljsbuild "1.1.3"]
             [lein-beanstalk "0.2.7"]
             [lein-ring "0.9.7"]]
 
@@ -29,14 +30,14 @@
                           :figwheel true
                           :compiler { :main "frontend.core"
                                       :asset-path "js/out"
-                                      :output-to "resources/public/js/twit_frontend.js"
-                                      :output-dir "resources/public/js/out"
+                                      :output-to "resources/public/js-production/twit_frontend.js"
+                                      :output-dir "resources/public/js-production/out"
                                       :optimizations :advanced}}
                         { :id "fig"
                           :source-paths ["src_js/"]
                           :figwheel true
                           :compiler { :main "frontend.core"
                                       :asset-path "js/out"
-                                      :output-to "resources/public/js/twit_frontend.js"
-                                      :output-dir "resources/public/js/out"
+                                      :output-to "resources/public/js-fig/twit_frontend.js"
+                                      :output-dir "resources/public/js-fig/out"
                                       :optimizations :none}}]})

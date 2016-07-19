@@ -30,4 +30,13 @@
                           :compiler { :main "frontend.core"
                                       :asset-path "js/out"
                                       :output-to "resources/public/js/twit_frontend.js"
-                                      :output-dir "resources/public/js/out"}}]})
+                                      :output-dir "resources/public/js/out"
+                                      :optimizations :advanced}}
+                        { :id "fig"
+                          :source-paths ["src_js/"]
+                          :figwheel true
+                          :compiler { :main "frontend.core"
+                                      :asset-path "js/out"
+                                      :output-to "resources/public/js/twit_frontend.js"
+                                      :output-dir "resources/public/js/out"
+                                      :optimizations :none}}]})

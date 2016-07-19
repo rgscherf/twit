@@ -7,31 +7,20 @@
             [ring.util.response :as resp]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
+(defn user-route [user]
+  ; error handling is in assemble-user-map
+  ; which returns nil on any error
+  (if-let [user-map (-> user assemble-user-map)]
+    {:status 200
+     :headers {"Content-Type" "application/json"}
+     :body (c/generate-string user-map)}
+    {:status 204 ; 'no content'
+     :headers {}}))
+
+
 (defroutes app-routes
-  (GET "/get_user/:user" [user]
-    (try
-      (let [user-map (-> user
-                         assemble-user-map
-                         c/generate-string)]
-        {:status 200
-         :headers {"Content-Type" "application/json"}
-         :body user-map})
-      (catch clojure.lang.ExeptionInfo e
-        {:status 404
-         :headers {}
-         :body {e}})))
-         
-    ; (if-let [user-map (-> user
-    ;                       assemble-user-map
-    ;                       c/generate-string)]
-    ;   {:status 200
-    ;    :headers {"Content-Type" "application/json"}
-    ;    :body user-map}
-    ;   {:status 404
-    ;    :headers {}}))
-
+  (GET "/get_user/:user" [user] (user-route user))
   (GET  "/" [] (io/resource "public/index.html"))
-
   (route/not-found "Not Found"))
 
 (def app

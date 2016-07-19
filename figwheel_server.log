@@ -1497,3 +1497,2700 @@ notifying browser that file changed:  out/frontend/core.js
 [0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
 [32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.26 seconds.[0m
 notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 2.207 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.498 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.066 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 2.752 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.439 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.357 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.392 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.315 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.441 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.22 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:22  column:46  ----[0m
+
+  [1mUse of undeclared Var frontend.core/%[0m
+
+  [36m19[0m  [36m(defn new-user [user][0m
+  [36m20[0m  [36m  (GET (str "/get_user" user)[0m
+  [36m21[0m  [36m       {:handler (reset! state {:error false[0m
+  [33m22[0m  [1m                                :user (:body %)})[0m
+  [0m  [0m  [33m                                             ^--- Use of undeclared Var frontend.core/%[0m
+  [36m23[0m  [36m        :error-handler (swap! state assoc :error true)}))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn sidebar [{:keys [avatar_url name html_url login public_repos]} user][0m
+  [36m26[0m  [36m  [:div.sideBar.shadow[0m
+  [36m27[0m  [36m    [:img {:src avatar_url}][0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 7.465 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:22  column:46  ----[0m
+
+  [1mUse of undeclared Var frontend.core/%[0m
+
+  [36m19[0m  [36m(defn new-user [user][0m
+  [36m20[0m  [36m  (GET (str "/get_user/" user)[0m
+  [36m21[0m  [36m       {:handler (reset! state {:error false[0m
+  [33m22[0m  [1m                                :user (:body %)})[0m
+  [0m  [0m  [33m                                             ^--- Use of undeclared Var frontend.core/%[0m
+  [36m23[0m  [36m        :error-handler (swap! state assoc :error true)}))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn sidebar [{:keys [avatar_url name html_url login public_repos]} user][0m
+  [36m26[0m  [36m  [:div.sideBar.shadow[0m
+  [36m27[0m  [36m    [:img {:src avatar_url}][0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.452 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.029 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.763 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.919 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.83 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.86 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.627 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.499 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 3.012 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.912 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.707 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.94 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.812 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.816 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:12  column:27  ----[0m
+
+  [1mNo such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+
+  [36m 8[0m  [36m(def state (r/atom {}))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn new-user [user][0m
+  [36m11[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m12[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- No such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+  [36m13[0m  [36m        (js/console.log response)[0m
+  [36m14[0m  [36m        (if (= (:success response) true)[0m
+  [36m15[0m  [36m          (reset! state {:error false[0m
+  [36m16[0m  [36m                         :user (:body response)})[0m
+  [36m17[0m  [36m          (swap! state assoc :error true)))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:12  column:27  ----[0m
+
+  [1mUse of undeclared Var http/get[0m
+
+  [36m 8[0m  [36m(def state (r/atom {}))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn new-user [user][0m
+  [36m11[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m12[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var http/get[0m
+  [36m13[0m  [36m        (js/console.log response)[0m
+  [36m14[0m  [36m        (if (= (:success response) true)[0m
+  [36m15[0m  [36m          (reset! state {:error false[0m
+  [36m16[0m  [36m                         :user (:body response)})[0m
+  [36m17[0m  [36m          (swap! state assoc :error true)))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 2.095 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.243 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: cljs-http.client, could not locate cljs_http/client.cljs, cljs_http/client.cljc, or Closure namespace "cljs-http.client" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.516 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: cljs-http.client, could not locate cljs_http/client.cljs, cljs_http/client.cljc, or Closure namespace "cljs-http.client" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 4.482 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.502 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.453 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.234 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.381 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 3.089 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.471 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.898 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.152 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.042 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/sidebar.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/sidebar.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.618 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/component/sidebar.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.018 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/timeline.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/timeline.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.015 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/search_area.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/search_area.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.021 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/search_area.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/search_area.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.016 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/search_area.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/search_area.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.018 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/search_area.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/search_area.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.013 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/search_area.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/search_area.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.019 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/timeline.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/timeline.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.019 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/timeline.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/timeline.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.021 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/timeline.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/timeline.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.028 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/timeline.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/timeline.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.056 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/timeline.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/timeline.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.018 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/topbox.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/topbox.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.045 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/component/topbox.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/component/topbox.cljs
+ at cljs.analyzer$parse_ns$fn__4732.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19072.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19469.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19461.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19299.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19375.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19421.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19473.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19510.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4786$fn__4787.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4786.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/component/topbox.cljs   line:19  column:31  ----[0m
+
+  [1mUse of undeclared Var frontend.component.topbox/new-user[0m
+
+  [36m15[0m  [36m[:input {:type "text"[0m
+  [36m16[0m  [36m         :placeholder "Find Github user to twit"[0m
+  [36m17[0m  [36m         :class "mainSearch"[0m
+  [36m18[0m  [36m         :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??[0m
+  [33m19[0m  [1m                         (new-user (-> % .-target .-value)))}] ; update state with val[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var frontend.component.topbox/new-user[0m
+  [36m20[0m  [36m[:div.searchError[0m
+  [36m21[0m  [36m  (if (:error state-map)[0m
+  [36m22[0m  [36m    "Could not find that Github user!"[0m
+  [36m23[0m  [36m    "")]])[0m
+
+[36m----  Compiler Warning : Please see src_js/component/topbox.cljs  ----[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 1.097 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.421 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.581 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.381 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/component/topbox.cljs   line:19  column:31  ----[0m
+
+  [1mUse of undeclared Var frontend.component.topbox/new-user[0m
+
+  [36m15[0m  [36m[:input {:type "text"[0m
+  [36m16[0m  [36m         :placeholder "Find Github user to twit"[0m
+  [36m17[0m  [36m         :class "mainSearch"[0m
+  [36m18[0m  [36m         :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??[0m
+  [33m19[0m  [1m                         (new-user (-> % .-target .-value)))}] ; update state with val[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var frontend.component.topbox/new-user[0m
+  [36m20[0m  [36m[:div.searchError[0m
+  [36m21[0m  [36m  (if (:error state-map)[0m
+  [36m22[0m  [36m    "Could not find that Github user!"[0m
+  [36m23[0m  [36m    "")]])[0m
+
+[36m----  Compiler Warning : Please see src_js/component/topbox.cljs  ----[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.31 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.173 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.35 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.topbox/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.208 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/frontend.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.topbox/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.212 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/frontend.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.topbox/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend/topbox.cljs   line:19  column:31  ----[0m
+
+  [1mUse of undeclared Var frontend.component.topbox/new-user[0m
+
+  [36m15[0m  [36m[:input {:type "text"[0m
+  [36m16[0m  [36m         :placeholder "Find Github user to twit"[0m
+  [36m17[0m  [36m         :class "mainSearch"[0m
+  [36m18[0m  [36m         :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??[0m
+  [33m19[0m  [1m                         (new-user (-> % .-target .-value)))}] ; update state with val[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var frontend.component.topbox/new-user[0m
+  [36m20[0m  [36m[:div.searchError[0m
+  [36m21[0m  [36m  (if (:error state-map)[0m
+  [36m22[0m  [36m    "Could not find that Github user!"[0m
+  [36m23[0m  [36m    "")]])[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/topbox.cljs  ----[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.197 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/frontend.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.topbox/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend/component/topbox.cljs   line:19  column:31  ----[0m
+
+  [1mUse of undeclared Var frontend.component.topbox/new-user[0m
+
+  [36m15[0m  [36m[:input {:type "text"[0m
+  [36m16[0m  [36m         :placeholder "Find Github user to twit"[0m
+  [36m17[0m  [36m         :class "mainSearch"[0m
+  [36m18[0m  [36m         :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??[0m
+  [33m19[0m  [1m                         (new-user (-> % .-target .-value)))}] ; update state with val[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var frontend.component.topbox/new-user[0m
+  [36m20[0m  [36m[:div.searchError[0m
+  [36m21[0m  [36m  (if (:error state-map)[0m
+  [36m22[0m  [36m    "Could not find that Github user!"[0m
+  [36m23[0m  [36m    "")]])[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/component/topbox.cljs  ----[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.482 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.topbox/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.292 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.49 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.283 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mNo such namespace: frontend.component.sidebar, could not locate frontend/component/sidebar.cljs, frontend/component/sidebar.cljc, or Closure namespace "frontend.component.sidebar" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/component/topbox.cljs   line:19  column:31  ----[0m
+
+  [1mUse of undeclared Var component.topbox/new-user[0m
+
+  [36m15[0m  [36m[:input {:type "text"[0m
+  [36m16[0m  [36m         :placeholder "Find Github user to twit"[0m
+  [36m17[0m  [36m         :class "mainSearch"[0m
+  [36m18[0m  [36m         :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??[0m
+  [33m19[0m  [1m                         (new-user (-> % .-target .-value)))}] ; update state with val[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var component.topbox/new-user[0m
+  [36m20[0m  [36m[:div.searchError[0m
+  [36m21[0m  [36m  (if (:error state-map)[0m
+  [36m22[0m  [36m    "Could not find that Github user!"[0m
+  [36m23[0m  [36m    "")]])[0m
+
+[36m----  Compiler Warning : Please see src_js/component/topbox.cljs  ----[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.546 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend.cljs  ----[0m
+
+  [1mInvalid :refer, var component.topbox/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 6.824 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.552 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   file:/Users/rgscherf/.m2/repository/com/cognitect/transit-cljs/0.8.237/transit-cljs-0.8.237.jar!/cognitect/transit.cljs   line:342  column:1  ----[0m
+
+  [1muuid? already refers to: cljs.core/uuid? being replaced by: cognitect.transit/uuid?[0m
+
+[36m----  Compiler Warning : Please see file:/Users/rgscherf/.m2/repository/com/cognitect/transit-cljs/0.8.237/transit-cljs-0.8.237.jar!/cognitect/transit.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/component/topbox.cljs   line:19  column:31  ----[0m
+
+  [1mUse of undeclared Var component.topbox/new-user[0m
+
+  [36m15[0m  [36m[:input {:type "text"[0m
+  [36m16[0m  [36m         :placeholder "Find Github user to twit"[0m
+  [36m17[0m  [36m         :class "mainSearch"[0m
+  [36m18[0m  [36m         :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??[0m
+  [33m19[0m  [1m                         (new-user (-> % .-target .-value)))}] ; update state with val[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var component.topbox/new-user[0m
+  [36m20[0m  [36m[:div.searchError[0m
+  [36m21[0m  [36m  (if (:error state-map)[0m
+  [36m22[0m  [36m    "Could not find that Github user!"[0m
+  [36m23[0m  [36m    "")]])[0m
+
+[36m----  Compiler Warning : Please see src_js/component/topbox.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 13.414 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.46 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 2.288 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.999 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.375 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: Circular dependency detected, frontend.core -> component.topbox -> frontend.core
+(not (some #{ns-name} seen))[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: Circular dependency detected, frontend.core -> component.topbox -> frontend.core
+(not (some #{ns-name} seen))
+ at cljs.js_deps$dependency_order_visit.invokeStatic (js_deps.cljc:148)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:144)
+    cljs.js_deps$dependency_order_visit$fn__2969.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invokeStatic (protocols.clj:49)
+    clojure.core.protocols$fn__6742.invokeStatic (protocols.clj:75)
+    clojure.core.protocols/fn (protocols.clj:75)
+    clojure.core.protocols$fn__6684$G__6679__6697.invoke (protocols.clj:13)
+    clojure.core$reduce.invokeStatic (core.clj:6545)
+    clojure.core$reduce.invoke (core.clj:6527)
+    cljs.js_deps$dependency_order_visit.invokeStatic (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:144)
+    cljs.js_deps$dependency_order_visit$fn__2969.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invokeStatic (protocols.clj:49)
+    clojure.core.protocols$fn__6742.invokeStatic (protocols.clj:75)
+    clojure.core.protocols/fn (protocols.clj:75)
+    clojure.core.protocols$fn__6684$G__6679__6697.invoke (protocols.clj:13)
+    clojure.core$reduce.invokeStatic (core.clj:6545)
+    clojure.core$reduce.invoke (core.clj:6527)
+    cljs.js_deps$dependency_order_visit.invokeStatic (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:144)
+    cljs.js_deps$dependency_order_visit.invokeStatic (js_deps.cljc:146)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:144)
+    clojure.core.protocols$iter_reduce.invokeStatic (protocols.clj:49)
+    clojure.core.protocols$fn__6744.invokeStatic (protocols.clj:75)
+    clojure.core.protocols/fn (protocols.clj:75)
+    clojure.core.protocols$fn__6684$G__6679__6697.invoke (protocols.clj:13)
+    clojure.core$reduce.invokeStatic (core.clj:6545)
+    clojure.core$reduce.invoke (core.clj:6527)
+    cljs.js_deps$dependency_order.invokeStatic (js_deps.cljc:176)
+    cljs.js_deps$dependency_order.invoke (js_deps.cljc:170)
+    cljs.closure$build.invokeStatic (closure.clj:1998)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19068.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19465.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19457.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19295.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19371.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19417.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19469.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19506.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4782$fn__4783.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4782.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/component/topbox.cljs   line:19  column:31  ----[0m
+
+  [1mUse of undeclared Var component.topbox/new-user[0m
+
+  [36m15[0m  [36m[:input {:type "text"[0m
+  [36m16[0m  [36m         :placeholder "Find Github user to twit"[0m
+  [36m17[0m  [36m         :class "mainSearch"[0m
+  [36m18[0m  [36m         :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??[0m
+  [33m19[0m  [1m                         (new-user (-> % .-target .-value)))}] ; update state with val[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var component.topbox/new-user[0m
+  [36m20[0m  [36m[:div.searchError[0m
+  [36m21[0m  [36m  (if (:error state-map)[0m
+  [36m22[0m  [36m    "Could not find that Github user!"[0m
+  [36m23[0m  [36m    "")]])[0m
+
+[36m----  Compiler Warning : Please see src_js/component/topbox.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.073 seconds.[0m
+notifying browser that file changed:  out/component/topbox.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:52  column:1  ----[0m
+
+  [1mtopbox already refers to: component.topbox/topbox being replaced by: frontend.core/topbox[0m
+
+  [36m48[0m  [36m      (if (:error state-map)[0m
+  [36m49[0m  [36m        "Could not find that Github user!"[0m
+  [36m50[0m  [36m        "")]])[0m
+  [36m51[0m  [36m[0m
+  [33m52[0m  [1m(defn topbox [state-map][0m
+  [0m  [0m  [33m^--- topbox already refers to: component.topbox/topbox being replaced by: frontend.core/topbox[0m
+  [36m53[0m  [36m  [:div.searchBox.shadow[0m
+  [36m54[0m  [36m    [logo-area][0m
+  [36m55[0m  [36m    [search-area state-map]])[0m
+  [36m56[0m  [36m[0m
+  [36m57[0m  [36m(defn page-root [user][0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.333 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.959 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:32  column:8  ----[0m
+
+  [1mUse of undeclared Var frontend.core/topbox[0m
+
+  [36m28[0m  [36m(defn page-root [user][0m
+  [36m29[0m  [36m  (new-user user)[0m
+  [36m30[0m  [36m  (fn [][0m
+  [36m31[0m  [36m    [:div[0m
+  [33m32[0m  [1m      [topbox @state][0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var frontend.core/topbox[0m
+  [36m33[0m  [36m      [content-container (:user @state)]]))[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(r/render [page-root "rgscherf"][0m
+  [36m36[0m  [36m  (js/document.getElementById "app"))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.446 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:31  column:8  ----[0m
+
+  [1mUse of undeclared Var frontend.core/topbox[0m
+
+  [36m27[0m  [36m(defn page-root [user][0m
+  [36m28[0m  [36m  (new-user user)[0m
+  [36m29[0m  [36m  (fn [][0m
+  [36m30[0m  [36m    [:div[0m
+  [33m31[0m  [1m      [topbox @state][0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var frontend.core/topbox[0m
+  [36m32[0m  [36m      [content-container (:user @state)]]))[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(r/render [page-root "rgscherf"][0m
+  [36m35[0m  [36m  (js/document.getElementById "app"))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.51 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.448 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.016 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src_js/user_request.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src_js/user_request.cljs
+ at cljs.analyzer$parse_ns$fn__4728.invoke (analyzer.cljc:2802)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2752)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2744)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2734)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1418)
+    cljs.compiler$find_source.invoke (compiler.cljc:1417)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:797)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:791)
+    cljs.closure$build.invokeStatic (closure.clj:1996)
+    cljs.closure$build.invoke (closure.clj:1937)
+    cljs.build.api$build.invokeStatic (api.clj:210)
+    cljs.build.api$build.invoke (api.clj:198)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19068.invoke (injection.clj:139)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__19465.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__19457.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19295.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__19371.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__19417.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__19469.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__19506.invoke (cljs_autobuild.clj:227)
+    figwheel_sidecar.utils$sync_exec$fn__4782$fn__4783.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__4782.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    java.lang.Thread.run (Thread.java:745)
+
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request)[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m[0m
+  [36m3[0m  [36m(def state (r/atom {}))[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- No such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mUse of undeclared Var r/atom[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- Use of undeclared Var r/atom[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [33m 6[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:23  ----[0m
+
+  [1mUse of undeclared Var user-request/<![0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var user-request/<![0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mNo such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- No such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mUse of undeclared Var http/get[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var http/get[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.7 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:19  column:4  ----[0m
+
+  [1mUse of undeclared Var frontend.core/new-user[0m
+
+  [36m15[0m  [36m    [sidebar user][0m
+  [36m16[0m  [36m    [timeline (:commits user)]])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(defn page-root [user][0m
+  [33m19[0m  [1m  (new-user user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var frontend.core/new-user[0m
+  [36m20[0m  [36m  (fn [][0m
+  [36m21[0m  [36m    [:div[0m
+  [36m22[0m  [36m      [topbox @state][0m
+  [36m23[0m  [36m      [content-container (:user @state)]]))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:22  column:16  ----[0m
+
+  [1mUse of undeclared Var frontend.core/state[0m
+
+  [36m18[0m  [36m(defn page-root [user][0m
+  [36m19[0m  [36m  (new-user user)[0m
+  [36m20[0m  [36m  (fn [][0m
+  [36m21[0m  [36m    [:div[0m
+  [33m22[0m  [1m      [topbox @state][0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var frontend.core/state[0m
+  [36m23[0m  [36m      [content-container (:user @state)]]))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(r/render [page-root "rgscherf"][0m
+  [36m26[0m  [36m  (js/document.getElementById "app"))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:23  column:34  ----[0m
+
+  [1mUse of undeclared Var frontend.core/state[0m
+
+  [36m19[0m  [36m  (new-user user)[0m
+  [36m20[0m  [36m  (fn [][0m
+  [36m21[0m  [36m    [:div[0m
+  [36m22[0m  [36m      [topbox @state][0m
+  [33m23[0m  [1m      [content-container (:user @state)]]))[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var frontend.core/state[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(r/render [page-root "rgscherf"][0m
+  [36m26[0m  [36m  (js/document.getElementById "app"))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.474 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+
+  [36m1[0m  [36m(ns frontend.user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- No such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mUse of undeclared Var r/atom[0m
+
+  [36m1[0m  [36m(ns frontend.user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- Use of undeclared Var r/atom[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/go[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [33m 6[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var frontend.user-request/go[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:23  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/<![0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var frontend.user-request/<![0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mNo such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- No such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mUse of undeclared Var http/get[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var http/get[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.59 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request)[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m[0m
+  [36m3[0m  [36m(def state (r/atom {}))[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- No such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mUse of undeclared Var r/atom[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- Use of undeclared Var r/atom[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [33m 6[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:23  ----[0m
+
+  [1mUse of undeclared Var user-request/<![0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var user-request/<![0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mNo such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- No such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mUse of undeclared Var http/get[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var http/get[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.506 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request)[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m[0m
+  [36m3[0m  [36m(def state (r/atom {}))[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- No such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mUse of undeclared Var r/atom[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- Use of undeclared Var r/atom[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [33m 6[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:23  ----[0m
+
+  [1mUse of undeclared Var user-request/<![0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var user-request/<![0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mNo such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- No such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mUse of undeclared Var http/get[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var http/get[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.349 seconds.[0m
+notifying browser that file changed:  out/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request)[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m[0m
+  [36m3[0m  [36m(def state (r/atom {}))[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- No such namespace: r, could not locate r.cljs, r.cljc, or Closure namespace ""[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:3  column:13  ----[0m
+
+  [1mUse of undeclared Var r/atom[0m
+
+  [36m1[0m  [36m(ns user-request)[0m
+  [36m2[0m  [36m[0m
+  [33m3[0m  [1m(def state (r/atom {}))[0m
+  [0m [0m  [33m            ^--- Use of undeclared Var r/atom[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m8[0m  [36m        (if (= (:status response) 200)[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [33m 6[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:23  ----[0m
+
+  [1mUse of undeclared Var user-request/<![0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var user-request/<![0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mNo such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- No such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:27  ----[0m
+
+  [1mUse of undeclared Var http/get[0m
+
+  [36m 3[0m  [36m(def state (r/atom {}))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 7[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var http/get[0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.465 seconds.[0m
+notifying browser that file changed:  out/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.32 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.31 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.256 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.263 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.012 seconds.[0m
+[36m----  Could not Analyze  src_js/component/topbox.cljs   line:1  column:1  ----[0m
+
+  [1mOnly [lib.ns & options] and lib.ns specs supported in :require / :require-macros; offending spec: :refer at line 1 src_js/component/topbox.cljs[0m
+
+  [33m1[0m  [1m(ns component.topbox[0m
+  [0m [0m  [33m^--- Only [lib.ns & options] and lib.ns specs supported in :require / :require-macros; offending spec: :refer at line 1 src_js/component/topbox.cljs[0m
+  [36m2[0m  [36m  (:require user-request :refer [new-user]))[0m
+  [36m3[0m  [36m[0m
+  [36m4[0m  [36m(defn logo-area [][0m
+
+[36m----  Analysis Error : Please see src_js/component/topbox.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.257 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/component/topbox.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:13  column:1  ----[0m
+
+  [1mstate already refers to: user-request/state being replaced by: frontend.core/state[0m
+
+  [36m10[0m  [36m            [cljs-http.client :as http][0m
+  [36m11[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m12[0m  [36m[0m
+  [33m13[0m  [1m(def state (r/atom {}))[0m
+  [0m  [0m  [33m^--- state already refers to: user-request/state being replaced by: frontend.core/state[0m
+  [36m14[0m  [36m(defn content-container [user][0m
+  [36m15[0m  [36m  [:div.contentContainer[0m
+  [36m16[0m  [36m    [sidebar user][0m
+  [36m17[0m  [36m    [timeline (:commits user)]])[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.263 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.233 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.262 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request)[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m[0m
+  [36m3[0m  [36m[0m
+  [36m4[0m  [36m(defn new-user [user][0m
+  [36m5[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m6[0m  [36m            response (<! (http/get user-url))][0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:5  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 1[0m  [36m(ns user-request)[0m
+  [36m 2[0m  [36m[0m
+  [36m 3[0m  [36m[0m
+  [36m 4[0m  [36m(defn new-user [user][0m
+  [33m 5[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 6[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 7[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 8[0m  [36m          (reset! state {:error false[0m
+  [36m 9[0m  [36m                         :user (:body response)})[0m
+  [36m10[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:23  ----[0m
+
+  [1mUse of undeclared Var user-request/<![0m
+
+  [36m 4[0m  [36m(defn new-user [user][0m
+  [36m 5[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 6[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var user-request/<![0m
+  [36m 7[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 8[0m  [36m          (reset! state {:error false[0m
+  [36m 9[0m  [36m                         :user (:body response)})[0m
+  [36m10[0m  [36m          (reset! state {:error true[0m
+  [36m11[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:27  ----[0m
+
+  [1mNo such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+
+  [36m 4[0m  [36m(defn new-user [user][0m
+  [36m 5[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 6[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- No such namespace: http, could not locate http.cljs, http.cljc, or Closure namespace ""[0m
+  [36m 7[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 8[0m  [36m          (reset! state {:error false[0m
+  [36m 9[0m  [36m                         :user (:body response)})[0m
+  [36m10[0m  [36m          (reset! state {:error true[0m
+  [36m11[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:6  column:27  ----[0m
+
+  [1mUse of undeclared Var http/get[0m
+
+  [36m 4[0m  [36m(defn new-user [user][0m
+  [36m 5[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [33m 6[0m  [1m            response (<! (http/get user-url))][0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var http/get[0m
+  [36m 7[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 8[0m  [36m          (reset! state {:error false[0m
+  [36m 9[0m  [36m                         :user (:body response)})[0m
+  [36m10[0m  [36m          (reset! state {:error true[0m
+  [36m11[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:8  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 4[0m  [36m(defn new-user [user][0m
+  [36m 5[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m 6[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 7[0m  [36m        (if (= (:status response) 200)[0m
+  [33m 8[0m  [1m          (reset! state {:error false[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var user-request/state[0m
+  [36m 9[0m  [36m                         :user (:body response)})[0m
+  [36m10[0m  [36m          (reset! state {:error true[0m
+  [36m11[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:10  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 6[0m  [36m    response (<! (http/get user-url))][0m
+  [36m 7[0m  [36m(if (= (:status response) 200)[0m
+  [36m 8[0m  [36m  (reset! state {:error false[0m
+  [36m 9[0m  [36m                 :user (:body response)})[0m
+  [33m10[0m  [1m  (reset! state {:error true[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var user-request/state[0m
+  [36m11[0m  [36m                 :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:11  column:40  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 7[0m  [36m(if (= (:status response) 200)[0m
+  [36m 8[0m  [36m  (reset! state {:error false[0m
+  [36m 9[0m  [36m                 :user (:body response)})[0m
+  [36m10[0m  [36m  (reset! state {:error true[0m
+  [33m11[0m  [1m                 :user (:user @state)})))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var user-request/state[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.904 seconds.[0m
+notifying browser that file changed:  out/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.02 seconds.[0m
+[36m----  Could not Analyze  src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1mLibrary name must be specified as a symbol in :require / :require-macros; offending spec: [[cljs-http.client :as http] [cljs.core.async :refer [<!]]] at line 1 src_js/user_request.cljs[0m
+
+  [33m1[0m  [1m(ns user-request[0m
+  [0m [0m  [33m^--- Library name must be specified as a symbol in :require / :require-macros; offending spec: [[cljs-http.client :as http] [cljs.core.async :refer [<!]]] at line 1 src_js/user_request.cljs[0m
+  [36m2[0m  [36m  (:require [[0m
+  [36m3[0m  [36m              [cljs-http.client :as http][0m
+  [36m4[0m  [36m              [cljs.core.async :refer [<!]]]))[0m
+
+[36m----  Analysis Error : Please see src_js/user_request.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.024 seconds.[0m
+[36m----  Could not Analyze  src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1mLibrary name must be specified as a symbol in :require / :require-macros; offending spec: [[cljs-http.client :as http] [cljs.core.async :refer [<!]]] at line 1 src_js/user_request.cljs[0m
+
+  [33m1[0m  [1m(ns user-request[0m
+  [0m [0m  [33m^--- Library name must be specified as a symbol in :require / :require-macros; offending spec: [[cljs-http.client :as http] [cljs.core.async :refer [<!]]] at line 1 src_js/user_request.cljs[0m
+  [36m2[0m  [36m  (:require [[cljs-http.client :as http][0m
+  [36m3[0m  [36m             [cljs.core.async :refer [<!]]]))[0m
+
+[36m----  Analysis Error : Please see src_js/user_request.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.022 seconds.[0m
+[36m----  Could not Analyze  src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1mLibrary name must be specified as a symbol in :require / :require-macros; offending spec: [[cljs-http.client :as http] [cljs.core.async :refer [<!]]] at line 1 src_js/user_request.cljs[0m
+
+  [33m1[0m  [1m(ns user-request[0m
+  [0m [0m  [33m^--- Library name must be specified as a symbol in :require / :require-macros; offending spec: [[cljs-http.client :as http] [cljs.core.async :refer [<!]]] at line 1 src_js/user_request.cljs[0m
+  [36m2[0m  [36m  (:require [[cljs-http.client :as http][0m
+  [36m3[0m  [36m             [cljs.core.async :refer [<!]]]))[0m
+
+[36m----  Analysis Error : Please see src_js/user_request.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m  (:require [cljs-http.client :as http][0m
+  [36m3[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m[0m
+  [36m6[0m  [36m(defn new-user [user][0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(defn new-user [user][0m
+  [33m 7[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 8[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m        (if (= (:status response) 200)[0m
+  [36m10[0m  [36m          (reset! state {:error false[0m
+  [36m11[0m  [36m                         :user (:body response)})[0m
+  [36m12[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:10  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 6[0m  [36m(defn new-user [user][0m
+  [36m 7[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m 8[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m        (if (= (:status response) 200)[0m
+  [33m10[0m  [1m          (reset! state {:error false[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var user-request/state[0m
+  [36m11[0m  [36m                         :user (:body response)})[0m
+  [36m12[0m  [36m          (reset! state {:error true[0m
+  [36m13[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:12  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 8[0m  [36m    response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m(if (= (:status response) 200)[0m
+  [36m10[0m  [36m  (reset! state {:error false[0m
+  [36m11[0m  [36m                 :user (:body response)})[0m
+  [33m12[0m  [1m  (reset! state {:error true[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var user-request/state[0m
+  [36m13[0m  [36m                 :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:13  column:40  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 9[0m  [36m(if (= (:status response) 200)[0m
+  [36m10[0m  [36m  (reset! state {:error false[0m
+  [36m11[0m  [36m                 :user (:body response)})[0m
+  [36m12[0m  [36m  (reset! state {:error true[0m
+  [33m13[0m  [1m                 :user (:user @state)})))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var user-request/state[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.604 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m  (:require [cljs-http.client :as http][0m
+  [36m3[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m[0m
+  [36m6[0m  [36m(defn new-user [user][0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(defn new-user [user][0m
+  [33m 7[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 8[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m        (if (= (:status response) 200)[0m
+  [36m10[0m  [36m          (reset! state {:error false[0m
+  [36m11[0m  [36m                         :user (:body response)})[0m
+  [36m12[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:10  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 6[0m  [36m(defn new-user [user][0m
+  [36m 7[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m 8[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m        (if (= (:status response) 200)[0m
+  [33m10[0m  [1m          (reset! state {:error false[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var user-request/state[0m
+  [36m11[0m  [36m                         :user (:body response)})[0m
+  [36m12[0m  [36m          (reset! state {:error true[0m
+  [36m13[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:12  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 8[0m  [36m    response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m(if (= (:status response) 200)[0m
+  [36m10[0m  [36m  (reset! state {:error false[0m
+  [36m11[0m  [36m                 :user (:body response)})[0m
+  [33m12[0m  [1m  (reset! state {:error true[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var user-request/state[0m
+  [36m13[0m  [36m                 :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/user_request.cljs   line:13  column:40  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 9[0m  [36m(if (= (:status response) 200)[0m
+  [36m10[0m  [36m  (reset! state {:error false[0m
+  [36m11[0m  [36m                 :user (:body response)})[0m
+  [36m12[0m  [36m  (reset! state {:error true[0m
+  [33m13[0m  [1m                 :user (:user @state)})))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var user-request/state[0m
+
+[36m----  Compiler Warning : Please see src_js/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.851 seconds.[0m
+notifying browser that file changed:  out/user_request.js
+Figwheel: Can't open  ("src_js/user_request.cljs" 1 1) No :open-file-command supplied in the config.
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.577 seconds.[0m
+notifying browser that file changed:  out/component/topbox.js
+notifying browser that file changed:  out/component/sidebar.js
+notifying browser that file changed:  out/component/timeline.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.382 seconds.[0m
+notifying browser that file changed:  out/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.238 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.467 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.241 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.131 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.timeline/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.139 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.timeline/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:1  column:1  ----[0m
+
+  [1muser-request is a single segment namespace[0m
+
+  [33m1[0m  [1m(ns user-request[0m
+  [0m [0m  [33m^--- user-request is a single segment namespace[0m
+  [36m2[0m  [36m  (:require [cljs-http.client :as http][0m
+  [36m3[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn new-user [user][0m
+  [36m6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var user-request/go[0m
+
+  [36m 2[0m  [36m  (:require [cljs-http.client :as http][0m
+  [36m 3[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [33m 6[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var user-request/go[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:9  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [33m 9[0m  [1m          (reset! state {:error false[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var user-request/state[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:11  column:19  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 7[0m  [36m    response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m(if (= (:status response) 200)[0m
+  [36m 9[0m  [36m  (reset! state {:error false[0m
+  [36m10[0m  [36m                 :user (:body response)})[0m
+  [33m11[0m  [1m  (reset! state {:error true[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var user-request/state[0m
+  [36m12[0m  [36m                 :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:12  column:40  ----[0m
+
+  [1mUse of undeclared Var user-request/state[0m
+
+  [36m 8[0m  [36m(if (= (:status response) 200)[0m
+  [36m 9[0m  [36m  (reset! state {:error false[0m
+  [36m10[0m  [36m                 :user (:body response)})[0m
+  [36m11[0m  [36m  (reset! state {:error true[0m
+  [33m12[0m  [1m                 :user (:user @state)})))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var user-request/state[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.42 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.timeline/timeline does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.204 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.topbox/topbox does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.272 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mInvalid :refer, var frontend.component.topbox/topbox does not exist [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.487 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/component/topbox.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/go[0m
+
+  [36m 2[0m  [36m  (:require [cljs-http.client :as http][0m
+  [36m 3[0m  [36m            [cljs.core.async :refer [<!]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [33m 6[0m  [1m  (go (let [user-url (str "/get_user/" user)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var frontend.user-request/go[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [36m 9[0m  [36m          (reset! state {:error false[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:9  column:19  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/state[0m
+
+  [36m 5[0m  [36m(defn new-user [user][0m
+  [36m 6[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m 7[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m        (if (= (:status response) 200)[0m
+  [33m 9[0m  [1m          (reset! state {:error false[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var frontend.user-request/state[0m
+  [36m10[0m  [36m                         :user (:body response)})[0m
+  [36m11[0m  [36m          (reset! state {:error true[0m
+  [36m12[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:11  column:19  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/state[0m
+
+  [36m 7[0m  [36m    response (<! (http/get user-url))][0m
+  [36m 8[0m  [36m(if (= (:status response) 200)[0m
+  [36m 9[0m  [36m  (reset! state {:error false[0m
+  [36m10[0m  [36m                 :user (:body response)})[0m
+  [33m11[0m  [1m  (reset! state {:error true[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var frontend.user-request/state[0m
+  [36m12[0m  [36m                 :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:12  column:40  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/state[0m
+
+  [36m 8[0m  [36m(if (= (:status response) 200)[0m
+  [36m 9[0m  [36m  (reset! state {:error false[0m
+  [36m10[0m  [36m                 :user (:body response)})[0m
+  [36m11[0m  [36m  (reset! state {:error true[0m
+  [33m12[0m  [1m                 :user (:user @state)})))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var frontend.user-request/state[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.432 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:10  column:19  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/state[0m
+
+  [36m 6[0m  [36m(defn new-user [user][0m
+  [36m 7[0m  [36m  (go (let [user-url (str "/get_user/" user)[0m
+  [36m 8[0m  [36m            response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m        (if (= (:status response) 200)[0m
+  [33m10[0m  [1m          (reset! state {:error false[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var frontend.user-request/state[0m
+  [36m11[0m  [36m                         :user (:body response)})[0m
+  [36m12[0m  [36m          (reset! state {:error true[0m
+  [36m13[0m  [36m                         :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:13  column:40  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/state[0m
+
+  [36m 9[0m  [36m(if (= (:status response) 200)[0m
+  [36m10[0m  [36m  (reset! state {:error false[0m
+  [36m11[0m  [36m                 :user (:body response)})[0m
+  [36m12[0m  [36m  (reset! state {:error true[0m
+  [33m13[0m  [1m                 :user (:user @state)})))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var frontend.user-request/state[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend/user_request.cljs   line:12  column:19  ----[0m
+
+  [1mUse of undeclared Var frontend.user-request/state[0m
+
+  [36m 8[0m  [36m    response (<! (http/get user-url))][0m
+  [36m 9[0m  [36m(if (= (:status response) 200)[0m
+  [36m10[0m  [36m  (reset! state {:error false[0m
+  [36m11[0m  [36m                 :user (:body response)})[0m
+  [33m12[0m  [1m  (reset! state {:error true[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var frontend.user-request/state[0m
+  [36m13[0m  [36m                 :user (:user @state)})))))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend/user_request.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.59 seconds.[0m
+notifying browser that file changed:  out/frontend/user_request.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.374 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.283 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.255 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.242 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.257 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.554 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 1.805 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.668 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.197 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.182 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/component/topbox.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/component/topbox.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.167 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/component/topbox.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/component/topbox.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.306 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.218 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/component/topbox.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/component/topbox.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.217 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/component/topbox.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/component/topbox.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 1.021 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.289 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.431 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.215 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/core.cljs  ----[0m
+
+  [1mNo such namespace: user-request, could not locate user_request.cljs, user_request.cljc, or Closure namespace "user-request" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/core.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.219 seconds.[0m
+[36m----  Could not Analyze  src_js/frontend/component/topbox.cljs  ----[0m
+
+  [1mNo such namespace: user, could not locate user.cljs, user.cljc, or Closure namespace "user" [0m
+
+[36m----  Analysis Error : Please see src_js/frontend/component/topbox.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 1.341 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.365 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.507 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js

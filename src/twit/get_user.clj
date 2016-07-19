@@ -91,6 +91,9 @@
 (defn assemble-user-map
   "Github user name -> user + commits map"
   [user-name]
-  (-> user-name
-      basic-user-info
-      add-commits))
+  (try
+    (-> user-name
+        basic-user-info
+        add-commits)
+    (catch Exception e
+      nil)))

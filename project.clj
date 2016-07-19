@@ -9,6 +9,7 @@
                  [cheshire "5.4.0"]
                  [spyscope "0.1.5"]
                  [reagent "0.6.0-rc"]
+                 [cljs-http "0.1.41"]
                  [ring/ring-defaults "0.2.1"]]
   :plugins [[lein-figwheel "0.5.4-7"]
             [lein-beanstalk "0.2.7"]

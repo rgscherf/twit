@@ -9,14 +9,26 @@
 
 (defroutes app-routes
   (GET "/get_user/:user" [user]
-    (if-let [user-map (-> user
-                          assemble-user-map
-                          c/generate-string)]
-      {:status 200
-       :headers {"Content-Type" "application/json"}
-       :body user-map}
-      {:status 404
-       :headers {}}))
+    (try
+      (let [user-map (-> user
+                         assemble-user-map
+                         c/generate-string)]
+        {:status 200
+         :headers {"Content-Type" "application/json"}
+         :body user-map})
+      (catch clojure.lang.ExeptionInfo e
+        {:status 404
+         :headers {}
+         :body {e}})))
+         
+    ; (if-let [user-map (-> user
+    ;                       assemble-user-map
+    ;                       c/generate-string)]
+    ;   {:status 200
+    ;    :headers {"Content-Type" "application/json"}
+    ;    :body user-map}
+    ;   {:status 404
+    ;    :headers {}}))
 
   (GET  "/" [] (io/resource "public/index.html"))
 

@@ -1250,3 +1250,250 @@ notifying browser that file changed:  out/frontend/core.js
 [0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
 [32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.26 seconds.[0m
 notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.578 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.513 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.329 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.351 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.257 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.268 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.266 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.376 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.375 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.379 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.387 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.358 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.715 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.493 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.287 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.268 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.258 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.253 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.295 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:62  column:6  ----[0m
+
+  [1mUse of undeclared Var frontend.core/search-area[0m
+
+  [36m59[0m  [36m(defn searchbox [state-map][0m
+  [36m60[0m  [36m  [:div[0m
+  [36m61[0m  [36m    [logo-area][0m
+  [33m62[0m  [1m    [search-area]])[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var frontend.core/search-area[0m
+  [36m63[0m  [36m[0m
+  [36m64[0m  [36m(defn page-root [user][0m
+  [36m65[0m  [36m  (new-user user)[0m
+  [36m66[0m  [36m  (fn [][0m
+  [36m67[0m  [36m    [:div[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.309 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:62  column:6  ----[0m
+
+  [1mUse of undeclared Var frontend.core/search-area[0m
+
+  [36m59[0m  [36m(defn topbox [state-map][0m
+  [36m60[0m  [36m  [:div[0m
+  [36m61[0m  [36m    [logo-area][0m
+  [33m62[0m  [1m    [search-area]])[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var frontend.core/search-area[0m
+  [36m63[0m  [36m[0m
+  [36m64[0m  [36m(defn page-root [user][0m
+  [36m65[0m  [36m  (new-user user)[0m
+  [36m66[0m  [36m  (fn [][0m
+  [36m67[0m  [36m    [:div[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:68  column:8  ----[0m
+
+  [1mUse of undeclared Var frontend.core/searchbox[0m
+
+  [36m64[0m  [36m(defn page-root [user][0m
+  [36m65[0m  [36m  (new-user user)[0m
+  [36m66[0m  [36m  (fn [][0m
+  [36m67[0m  [36m    [:div[0m
+  [33m68[0m  [1m      [searchbox @state][0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var frontend.core/searchbox[0m
+  [36m69[0m  [36m      [content-container (:user @state)]]))[0m
+  [36m70[0m  [36m[0m
+  [36m71[0m  [36m(r/render [page-root "rgscherf"][0m
+  [36m72[0m  [36m  (js/document.getElementById "app"))[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.379 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[36m----  Compiler Warning on   src_js/frontend.cljs   line:62  column:6  ----[0m
+
+  [1mUse of undeclared Var frontend.core/search-area[0m
+
+  [36m59[0m  [36m(defn topbox [state-map][0m
+  [36m60[0m  [36m  [:div[0m
+  [36m61[0m  [36m    [logo-area][0m
+  [33m62[0m  [1m    [search-area]])[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var frontend.core/search-area[0m
+  [36m63[0m  [36m[0m
+  [36m64[0m  [36m(defn page-root [user][0m
+  [36m65[0m  [36m  (new-user user)[0m
+  [36m66[0m  [36m  (fn [][0m
+  [36m67[0m  [36m    [:div[0m
+
+[36m----  Compiler Warning : Please see src_js/frontend.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.31 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[31mFailed to compile "resources/public/js/twit_frontend.js" in 0.618 seconds.[0m
+[36m----  Could not Read  src_js/frontend.cljs   line:65  column:27  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m63[0m  [36m             :placeholder "Find Github user to twit"[0m
+  [36m64[0m  [36m             :class "mainSearch"[0m
+  [33m65[0m  [1m             :on-key-down}]])[0m
+  [0m  [0m  [33m                          ^--- Map literal must contain an even number of forms[0m
+  [36m66[0m  [36m[0m
+  [36m67[0m  [36m(defn topbox [state-map][0m
+  [36m68[0m  [36m  [:div[0m
+
+[36m----  Reader Error : Please see src_js/frontend.cljs  ----[0m
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.671 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.38 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.305 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.379 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.684 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.388 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.27 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.254 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.296 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.803 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.278 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.263 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.293 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.279 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.686 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.445 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.279 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.278 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.261 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.286 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.472 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.422 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.403 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.293 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.281 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.368 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.836 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.263 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.269 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.269 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.247 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.402 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.265 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.26 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js

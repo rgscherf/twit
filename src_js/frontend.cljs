@@ -12,20 +12,22 @@
           (reset! state {:error false
                          :user (:body response)})
           (reset! state {:error true
-                         :user nil})))))
+                         :user (if (:user @state)
+                                 (:user @state)
+                                 nil)})))))
 
 (defn sidebar [{:keys [avatar_url name html_url login public_repos]} user]
-  [:div {:class "sideBar shadow"}
+  [:div.sideBar.shadow
     [:img {:src avatar_url}]
     [:div
-      [:span {:id "userName"} name]]
+      [:span#userName name]]
     [:div
-      [:span {:id "userUrl"}
+      [:span#userUrl
         [:a {:href html_url} (str login " - " public_repos " public repos")]]]])
 
 (defn twitcard [{:keys [message commit_url sha repo_url repo_name timestamp_pretty]} commit]
-  [:div {:class "twitCard shadow"}
-    [:div {:class "twitCardMessage"} message]
+  [:div.twitCard.shadow
+    [:div.twitCardMessage message]
     [:div
       [:a {:href commit_url} sha]
       [:span " to "]
@@ -33,20 +35,48 @@
     [:div timestamp_pretty]])
 
 (defn timeline [commits]
-  [:div {:class "timeline"}
+  [:div.timeline
     (for [card commits]
-      [twitcard card])])
+      ^{:key (:sha card)} [twitcard card])])
 
 (defn content-container [user]
-  [:div {:class "contentContainer"}
+  [:div.contentContainer
     [sidebar user]
     [timeline (:commits user)]])
 
+(defn logo-area []
+  [:div
+    [:div.titleBox
+      [:div#logo "Twit"]
+      [:div#definition
+        [:div
+          [:i "V. to taunt or ridicule"]]
+        [:div
+          [:i "with reference to anything embarrassing"]]]]])
+
+(defn search-area [state-map]
+  [:div.searchContainer
+    [:input {:type "text"
+             :placeholder "Find Github user to twit"
+             :class "mainSearch"
+             :on-key-down #(if (= 13 (.-keyCode %)) ; reagent doesn't accept .-key ??
+                             (new-user (-> % .-target .-value)))}] ; update state with val
+    [:div.searchError
+      (if (:error state-map)
+        "Could not find that Github user!"
+        "")]])
+
+(defn topbox [state-map]
+  [:div.searchBox.shadow
+    [logo-area]
+    [search-area]])
 
 (defn page-root [user]
   (new-user user)
   (fn []
-    [content-container (:user @state)]))
+    [:div
+      [topbox @state]
+      [content-container (:user @state)]]))
 
 (r/render [page-root "rgscherf"]
   (js/document.getElementById "app"))

@@ -1,0 +1,8 @@
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.491 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/frontend/core.js
+[0mCompiling "resources/public/js/twit_frontend.js" from ["src_js/"]...[0m
+[32mSuccessfully compiled "resources/public/js/twit_frontend.js" in 0.352 seconds.[0m
+notifying browser that file changed:  out/frontend/core.js

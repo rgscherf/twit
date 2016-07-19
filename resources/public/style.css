@@ -1,0 +1,143 @@
+/*META*/
+
+.shadow {
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(194,194,194,1);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(194,194,194,1);
+    box-shadow: 4px 4px 10px 0px rgba(194,194,194,1);
+}
+
+#app {
+    width: 95%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background: #f5ede3;
+    color: #292f33;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+/*LOGO AND SEARCH */
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #EDA639;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleBox {
+    padding: 15px;
+    flex: 1 1 auto;
+    color: black;
+}
+#logo {
+    text-align: center;
+    margin: auto;
+    font-size: 80px;
+    font-family: 'Bungee Shade', cursive;
+}
+#definition {
+    text-align: center;
+    font-size: 16px;
+}
+
+.searchContainer {
+    margin: 20px;
+    flex: 0 1 auto;
+}
+.mainSearch {
+    font-size: 2em;
+}
+.searchError {
+    font-size: 1em;
+    color: #d31b21;
+}
+
+input[type=text] {
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #d31b21;
+    background-color: #EDA639;
+    color: black;
+}
+input[type=text]:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+   color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: black;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;
+}
+:-ms-input-placeholder {
+   color: black;
+}
+
+a {
+    color: #d31b21;
+}
+a:visited {
+    color: #e64a2d;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar {
+    margin-top: 10px;
+    padding: 10px;
+    flex: 0 0 200px;
+    align-self: flex-start;
+    background: #EDA639;
+    margin-right: 10px;
+}
+.sidebar img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sidebar p {
+    font-size: 3em;
+}
+#userName {
+    font-size: 48px;
+}
+#userUrl {
+    font-size: 16px;
+}
+
+.timeline {
+    padding: 10px 0px 10px 10px;
+}
+
+.twitCard {
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #EDA639;
+    text-align: right;
+}
+
+.twitCardMessage {
+    font-size: 24px;
+    margin: 20px;
+    text-align: left;
+}

@@ -3,6 +3,7 @@
   :url "http://github.com/rgscherf/twit"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "1.9.89"]
                  [clj-http "2.2.0"]
                  [compojure "1.5.1"]
                  [cheshire "5.4.0"]
@@ -15,4 +16,11 @@
   :ring {:handler twit.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
-                        [ring/ring-mock "0.3.0"]]}})
+                        [ring/ring-mock "0.3.0"]]}}
+  :cljsbuild {:builds [ { :id "production"
+                          :source-paths ["src_js/"]
+                          :figwheel true
+                          :compiler { :main "frontend.core"
+                                      :asset-path "js/out"
+                                      :output-to "resources/public/js/twit_frontend.js"
+                                      :output-dir "resources/public/js/out"}}]})

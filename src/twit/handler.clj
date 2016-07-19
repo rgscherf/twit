@@ -1,23 +1,25 @@
 (ns twit.handler
   (:require [compojure.core :refer :all]
-            [twit.get-user :refer :all]
-            [compojure.route :as route]
             [cheshire.core :as c]
+            [clojure.java.io :as io]
+            [twit.get-user :refer [assemble-user-map]]
+            [compojure.route :as route]
             [ring.util.response :as resp]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
 (defroutes app-routes
   (GET "/get_user/:user" [user]
-    (if-let [user-map] (-> user
-                           assemble-user-map
-                           c/generate-string)
+    (if-let [user-map (-> user
+                          assemble-user-map
+                          c/generate-string)]
       {:status 200
        :headers {"Content-Type" "application/json"}
        :body user-map}
       {:status 404
        :headers {}}))
 
-  (GET "/" [] "Hello World")
+  (GET  "/" [] (io/resource "public/index.html"))
+
   (route/not-found "Not Found"))
 
 (def app

@@ -11,7 +11,7 @@
   [:div.contentContainer
     [sidebar user]
     [timeline (:commits user)]])
-    
+
 (defn page-root [user]
   (new-user state user)
   (fn []
@@ -21,3 +21,4 @@
 
 (r/render [page-root "rgscherf"]
   (js/document.getElementById "app"))
+  
